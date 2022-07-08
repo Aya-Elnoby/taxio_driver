@@ -1,0 +1,6 @@
+framework module Pods_taxio_driverTests {
+  umbrella header "Pods-taxio_driverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

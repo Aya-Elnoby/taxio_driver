@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>988425847189-vrtqsglrutpfm8h154pmohmonrh43r3o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.988425847189-vrtqsglrutpfm8h154pmohmonrh43r3o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDWOgqajwzq-MxCBMu5rbDGrrxIqbszP4Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>988425847189</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.taxio-driver</string>
+	<key>PROJECT_ID</key>
+	<string>taxiuser-f8fcb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>taxiuser-f8fcb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:988425847189:ios:056b87952ead320d0c369c</string>
+	<key>DATABASE_URL</key>
+	<string>https://taxiuser-f8fcb-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

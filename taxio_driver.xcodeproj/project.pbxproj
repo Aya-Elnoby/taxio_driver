@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3218FBF0EF782CF2972E3C1D /* Pods_taxio_driverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A2D22D09E4B2B1EF6E4564 /* Pods_taxio_driverTests.framework */; };
+		72B0E2CF6E96C46F7D0AC557 /* Pods_taxio_driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F635502277E40FE8CE1A4D1 /* Pods_taxio_driver.framework */; };
 		B3D84A4028779DA7007302A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D84A3F28779DA7007302A9 /* AppDelegate.swift */; };
 		B3D84A4228779DA7007302A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D84A4128779DA7007302A9 /* SceneDelegate.swift */; };
 		B3D84A4428779DA7007302A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D84A4328779DA7007302A9 /* ViewController.swift */; };
@@ -16,6 +18,9 @@
 		B3D84A5728779DA9007302A9 /* taxio_driverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D84A5628779DA9007302A9 /* taxio_driverTests.swift */; };
 		B3D84A6128779DA9007302A9 /* taxio_driverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D84A6028779DA9007302A9 /* taxio_driverUITests.swift */; };
 		B3D84A6328779DA9007302A9 /* taxio_driverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D84A6228779DA9007302A9 /* taxio_driverUITestsLaunchTests.swift */; };
+		B3D84A7028779EC4007302A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3D84A6F28779EC4007302A9 /* GoogleService-Info.plist */; };
+		B3D84A742878699D007302A9 /* order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D84A732878699D007302A9 /* order.swift */; };
+		C4EF170B8B485C51B652A464 /* Pods_taxio_driver_taxio_driverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A765BC8CDE07E54B4B156C37 /* Pods_taxio_driver_taxio_driverUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F635502277E40FE8CE1A4D1 /* Pods_taxio_driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxio_driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ABC4C1CE4A5D557A7A08970 /* Pods-taxio_driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxio_driver.release.xcconfig"; path = "Target Support Files/Pods-taxio_driver/Pods-taxio_driver.release.xcconfig"; sourceTree = "<group>"; };
+		5935615AFCA921F6880CEB92 /* Pods-taxio_driverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxio_driverTests.debug.xcconfig"; path = "Target Support Files/Pods-taxio_driverTests/Pods-taxio_driverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5ECB0C951143F60B6F58E5A0 /* Pods-taxio_driver-taxio_driverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxio_driver-taxio_driverUITests.release.xcconfig"; path = "Target Support Files/Pods-taxio_driver-taxio_driverUITests/Pods-taxio_driver-taxio_driverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72A2D22D09E4B2B1EF6E4564 /* Pods_taxio_driverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxio_driverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5ABD4F47FD9D0864505E80 /* Pods-taxio_driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxio_driver.debug.xcconfig"; path = "Target Support Files/Pods-taxio_driver/Pods-taxio_driver.debug.xcconfig"; sourceTree = "<group>"; };
+		96BE8EEEA18729D3DBA3E085 /* Pods-taxio_driverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxio_driverTests.release.xcconfig"; path = "Target Support Files/Pods-taxio_driverTests/Pods-taxio_driverTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CB1631066ABA638C9F674AA /* Pods-taxio_driver-taxio_driverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxio_driver-taxio_driverUITests.debug.xcconfig"; path = "Target Support Files/Pods-taxio_driver-taxio_driverUITests/Pods-taxio_driver-taxio_driverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A765BC8CDE07E54B4B156C37 /* Pods_taxio_driver_taxio_driverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxio_driver_taxio_driverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D84A3C28779DA7007302A9 /* taxio_driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taxio_driver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D84A3F28779DA7007302A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D84A4128779DA7007302A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		B3D84A5C28779DA9007302A9 /* taxio_driverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taxio_driverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D84A6028779DA9007302A9 /* taxio_driverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taxio_driverUITests.swift; sourceTree = "<group>"; };
 		B3D84A6228779DA9007302A9 /* taxio_driverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taxio_driverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3D84A6F28779EC4007302A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3D84A732878699D007302A9 /* order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B0E2CF6E96C46F7D0AC557 /* Pods_taxio_driver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3218FBF0EF782CF2972E3C1D /* Pods_taxio_driverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +88,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EF170B8B485C51B652A464 /* Pods_taxio_driver_taxio_driverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B057EFFE949AB96E2845987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F635502277E40FE8CE1A4D1 /* Pods_taxio_driver.framework */,
+				A765BC8CDE07E54B4B156C37 /* Pods_taxio_driver_taxio_driverUITests.framework */,
+				72A2D22D09E4B2B1EF6E4564 /* Pods_taxio_driverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3D84A3328779DA7007302A9 = {
 			isa = PBXGroup;
 			children = (
+				B3D84A6F28779EC4007302A9 /* GoogleService-Info.plist */,
 				B3D84A3E28779DA7007302A9 /* taxio_driver */,
 				B3D84A5528779DA9007302A9 /* taxio_driverTests */,
 				B3D84A5F28779DA9007302A9 /* taxio_driverUITests */,
 				B3D84A3D28779DA7007302A9 /* Products */,
+				FB6A971C629B2ADCA9C35860 /* Pods */,
+				1B057EFFE949AB96E2845987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +138,7 @@
 				B3D84A4828779DA9007302A9 /* Assets.xcassets */,
 				B3D84A4A28779DA9007302A9 /* LaunchScreen.storyboard */,
 				B3D84A4D28779DA9007302A9 /* Info.plist */,
+				B3D84A732878699D007302A9 /* order.swift */,
 			);
 			path = taxio_driver;
 			sourceTree = "<group>";
@@ -127,6 +160,19 @@
 			path = taxio_driverUITests;
 			sourceTree = "<group>";
 		};
+		FB6A971C629B2ADCA9C35860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D5ABD4F47FD9D0864505E80 /* Pods-taxio_driver.debug.xcconfig */,
+				2ABC4C1CE4A5D557A7A08970 /* Pods-taxio_driver.release.xcconfig */,
+				9CB1631066ABA638C9F674AA /* Pods-taxio_driver-taxio_driverUITests.debug.xcconfig */,
+				5ECB0C951143F60B6F58E5A0 /* Pods-taxio_driver-taxio_driverUITests.release.xcconfig */,
+				5935615AFCA921F6880CEB92 /* Pods-taxio_driverTests.debug.xcconfig */,
+				96BE8EEEA18729D3DBA3E085 /* Pods-taxio_driverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D84A6628779DA9007302A9 /* Build configuration list for PBXNativeTarget "taxio_driver" */;
 			buildPhases = (
+				EECF1A3227B9A32BA9AF3061 /* [CP] Check Pods Manifest.lock */,
 				B3D84A3828779DA7007302A9 /* Sources */,
 				B3D84A3928779DA7007302A9 /* Frameworks */,
 				B3D84A3A28779DA7007302A9 /* Resources */,
+				67738162E238892BDD3500A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D84A6928779DA9007302A9 /* Build configuration list for PBXNativeTarget "taxio_driverTests" */;
 			buildPhases = (
+				E579C95B1D18633E9513743E /* [CP] Check Pods Manifest.lock */,
 				B3D84A4E28779DA9007302A9 /* Sources */,
 				B3D84A4F28779DA9007302A9 /* Frameworks */,
 				B3D84A5028779DA9007302A9 /* Resources */,
@@ -169,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3D84A6C28779DA9007302A9 /* Build configuration list for PBXNativeTarget "taxio_driverUITests" */;
 			buildPhases = (
+				7FB5940E72DA0FB0AE3055A2 /* [CP] Check Pods Manifest.lock */,
 				B3D84A5828779DA9007302A9 /* Sources */,
 				B3D84A5928779DA9007302A9 /* Frameworks */,
 				B3D84A5A28779DA9007302A9 /* Resources */,
+				9648D8464B95B5AEE62E562F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +285,7 @@
 				B3D84A4C28779DA9007302A9 /* LaunchScreen.storyboard in Resources */,
 				B3D84A4928779DA9007302A9 /* Assets.xcassets in Resources */,
 				B3D84A4728779DA7007302A9 /* Main.storyboard in Resources */,
+				B3D84A7028779EC4007302A9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +305,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67738162E238892BDD3500A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taxio_driver/Pods-taxio_driver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taxio_driver/Pods-taxio_driver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taxio_driver/Pods-taxio_driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB5940E72DA0FB0AE3055A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taxio_driver-taxio_driverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9648D8464B95B5AEE62E562F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taxio_driver-taxio_driverUITests/Pods-taxio_driver-taxio_driverUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-taxio_driver-taxio_driverUITests/Pods-taxio_driver-taxio_driverUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taxio_driver-taxio_driverUITests/Pods-taxio_driver-taxio_driverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E579C95B1D18633E9513743E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taxio_driverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECF1A3227B9A32BA9AF3061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taxio_driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3D84A3828779DA7007302A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +415,7 @@
 			files = (
 				B3D84A4428779DA7007302A9 /* ViewController.swift in Sources */,
 				B3D84A4028779DA7007302A9 /* AppDelegate.swift in Sources */,
+				B3D84A742878699D007302A9 /* order.swift in Sources */,
 				B3D84A4228779DA7007302A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +588,7 @@
 		};
 		B3D84A6728779DA9007302A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5ABD4F47FD9D0864505E80 /* Pods-taxio_driver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +616,7 @@
 		};
 		B3D84A6828779DA9007302A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABC4C1CE4A5D557A7A08970 /* Pods-taxio_driver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +644,7 @@
 		};
 		B3D84A6A28779DA9007302A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5935615AFCA921F6880CEB92 /* Pods-taxio_driverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +664,7 @@
 		};
 		B3D84A6B28779DA9007302A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BE8EEEA18729D3DBA3E085 /* Pods-taxio_driverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +684,7 @@
 		};
 		B3D84A6D28779DA9007302A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB1631066ABA638C9F674AA /* Pods-taxio_driver-taxio_driverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +702,7 @@
 		};
 		B3D84A6E28779DA9007302A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECB0C951143F60B6F58E5A0 /* Pods-taxio_driver-taxio_driverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

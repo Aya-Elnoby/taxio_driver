@@ -1,0 +1,6 @@
+framework module Pods_taxio_driver {
+  umbrella header "Pods-taxio_driver-umbrella.h"
+
+  export *
+  module * { export * }
+}
